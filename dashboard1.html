@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard</title>
+</head>
+<style type="text/css">
+  .container{
+    margin-left: 22%;
+    margin-top: 10px;
+    width: 100%;
+    height: 100vh;
+    background-color:#EDF4F2;
+  }
+  .row1{
+    display: flex;
+    flex-direction: row;
+  }
+  .card1{
+    margin-left: 30px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 10.0);
+  }
+  .card1 h3{
+    margin-top: 45px;
+    margin-left: 10px;
+  }
+  .card2{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    margin-left: 60px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 10.0);
+  }
+  .card2 h3{
+    margin-top: 45px;
+    margin-left: 10px;
+  }
+  .card3{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+    margin-left: 60px;
+    border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 10.0);
+     background-color: white;
+  }
+  .card3 h3{
+    margin-top: 45px;
+    margin-left: 10px;
+  }
+  .card4{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+    margin-left: 60px;
+    border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 10.0);
+     background-color: white;
+  }
+  .card4 h3{
+    margin-top: 45px;
+    margin-left: 10px;
+  }
+  img{
+    width: 26px;
+    height: 26px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  .row2{
+    display: flex;
+    flex-direction: row;
+  }
+  .card5{
+    margin-left: 30px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 10.0);
+  }
+  .card5 h3{
+    margin-top: 45px;
+    margin-left: 10px;
+  }
+  .card6{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    margin-left: 60px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 10.0);
+  }
+  .card6 h3{
+    margin-top: 45px;
+    margin-left: 10px;
+  }
+  .card7{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+    margin-left: 60px;
+    border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 10.0);
+     background-color: white;
+  }
+  .card7 h3{
+    margin-top: 45px;
+    margin-left: 10px;
+  }
+  .card8{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+    margin-left: 60px;
+    border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 10.0);
+     background-color: white;
+  }
+  .card8 h3{
+    margin-top: 45px;
+    margin-left: 10px;
+  }
+  .row3{
+    margin-left: 30px;
+    margin-top: 100px;
+  }
+  table{
+    color: black;
+    border-collapse:collapse;
+    width: 74%;
+    background-color: #F5F7F8;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+}
+.row4{
+  background-color: #fff;
+  width: 72%;
+  height: 250px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+}
+.bar1{
+  width: 50px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  background-color: green;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.bar2{
+  width: 50px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  background-color: yellow;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.bar3{
+  width: 50px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  background-color:blue;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.bar4{
+  width: 50px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  background-color:indianred;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.bar5{
+  width: 50px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  background-color: goldenrod;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+
+</style>
+<body>
+  <div class="container">
+    <div class="row1">
+    <div class="card1">
+      <img src="icons8-users-26.png"><h3>Patients</h3>
+      <p class="id">
+      </p>
+    </div>
+    <div class="card2">
+      <img src="icons8-employee-26.png"><h3>employee</h3>
+      <p class="id"></p>
+    </div>
+    <div class="card3">
+      <img src="icons8-purchase-32.png">&nbsp;&nbsp;<h3>purchase</h3>
+      <p class="id"></p>
+    </div>
+    <div class="card4">
+      <img src="icons8-expense-26.png">&nbsp;&nbsp;<h3>Expenses</h3>
+      <p class="id"></p>
+    </div>
+  </div>
+  <div class="row2">
+    <div class="card5">
+      <img src="icons8-appointment-scheduling-26.png">&nbsp;&nbsp;<h3>Appointments</h3>
+      <p class="id"></p>
+    </div>
+    <div class="card6">
+      <img src="icons8-doctor-26.png">&nbsp;<h3>Doctors</h3>
+      <p class="id"></p>
+    </div>
+    <div class="card7">
+      <img src="icons8-nurse-26.png">&nbsp;<h3>Nurse</h3>
+      <p class="id"></p>
+    </div>
+    <div class="card8">
+      <img src="icons8-lab-technician-26.png">&nbsp;<h3>Lab Technician</h3>
+      <p class="id"></p>
+    </div>
+  </div>
+  <div class="row4">
+    <div class="bar1" id="expense" style="height:80px;"></div>
+    <div class="bar2" id="employee" style="height:120px;"></div>
+    <div class="bar3" id="doctor" style="height:150px;"></div>
+    <div class="bar4" id="nurse" style="height:130px;"></div>
+    <div class="bar5" id="patient" style="height:100px;"></div>
+  </div>
+  <div class="row3">
+    <table id="appointment">
+      <thead>
+        <tr>
+        <th>Appointment ID</th>
+        <th>Patient Id</th>
+        <th>Patient Name</th>
+        <th>Gender</th>
+        <th>Phone Number</th>
+        <th>Appointmentdate</th>
+        <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+</body>
+</html>
